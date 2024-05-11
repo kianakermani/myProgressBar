@@ -1,0 +1,46 @@
+.container {
+    width: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #startStopButton {
+    background-color: #3b683d;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    margin-top: 15px; 
+  }
+  
+  .progress-container {
+    width: 100%;
+    height: 30px;
+    background-color: #dbdada;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+    width: 0%;
+    transition: width 0.5s ease;
+  }
+  
+  .progress-text {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #startStopButton:hover {
+    background-color: #377e3b;
+  }
+  
