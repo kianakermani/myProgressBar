@@ -6,19 +6,6 @@
   align-items: flex-start;
 }
 
-#startStopButton {
-  background-color: #3b683d;
-  border: none;
-  color: white;
-  padding: 8px 10px;
-  text-align: center;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition-duration: 0.4s;
-  margin-top: 15px;
-}
-
 .progress-container {
   width: 100%;
   height: 30px;
@@ -38,6 +25,19 @@
 .progress-text {
   margin-top: 5px;
   text-align: center;
+}
+
+#startStopButton {
+  background-color: #3b683d;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  margin-top: 15px;
 }
 
 #startStopButton:hover {
